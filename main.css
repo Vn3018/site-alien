@@ -1,25 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .root{
    color:#778;
 }
+
+html {
+    overflow-x: hidden;
+}
+
 body{
     background-image: url("../alien.jpeg");
     background-repeat: no-repeat;
     background-size: 780px;
     color: mistyrose;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 25px;
     max-lines: 2px;
+}
+footer{
+    margin-top: .8rem;
+    max-width: 1080px;
+    width: 100%;
     position: relative;
 }
-.footer{
-    display: relative;
-    line-height: 25px;
-    max-lines: 3rem;
-    height: 20px;
-    width: 30px;
+
+.footer {
     position: static;
-    bottom: 10rem;
-    left: 10rem;
-    right: 10rem;
-    
+    bottom: 0; left: 0;right: 0;
+    background-color: #454545;
 }
