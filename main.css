@@ -1,0 +1,25 @@
+.root{
+   color:#778;
+}
+body{
+    background-image: url("../alien.jpeg");
+    background-repeat: no-repeat;
+    background-size: 780px;
+    color: mistyrose;
+    display: flex;
+    line-height: 25px;
+    max-lines: 2px;
+    position: relative;
+}
+.footer{
+    display: relative;
+    line-height: 25px;
+    max-lines: 3rem;
+    height: 20px;
+    width: 30px;
+    position: static;
+    bottom: 10rem;
+    left: 10rem;
+    right: 10rem;
+    
+}
